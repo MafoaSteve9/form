@@ -1,67 +1,48 @@
 * {
+    box-sizing: border-box;
+  }
+  body {
     margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: sans-serif;
-    font-size: 1em;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none; 
-}
-
-header{
-  padding: 1rem;
-  text-align: center;
-  margin-bottom: 2rem;
-
-  text-transform: uppercase;
-  background-color: #f1efe9;
-}
-
-form, #real{
-  display: flex;
-  width: 20rem;
-  margin: auto;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-
-input{
-  margin-bottom: 1rem;
-  padding: 2px;
-  border: 1px solid black;
-}
-
-button {
-  cursor: pointer;
-  padding: 4px;
-  border: 1px solid black;
-  transition: all 1s;
-}
-
-button:hover{
-  background-color: #b3b3b3;;
-}
-
-#delete{
-  background-color: red;
-  color: white;
-  border: 1px solid #8f0707;
-  padding: 2px;
-  width: 60px;
-  cursor: pointer;
-  transition: all 1s;
-}
-
-#delete:hover{
-  background-color: #8f0707;
-}
-
-#app{
-  display: flex;
-  flex-direction: column;
-}
-
-.items{
-  margin-bottom: 0.5rem;
-}
+  }
+  p {
+    margin-top: 0;
+  }
+  h1 {
+      text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  .conteneur {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+  }
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #c0c0c0;
+  }
+  input,
+  select {
+    height: 30px;
+  }
+  .error {
+      color: red;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #c0c0c0;
+  }
+  textarea {
+    resize: vertical; /* vertical | horizontal | none*/
+  }
+  #valider {
+      background-color: rgb(63, 220, 120);
+  }

@@ -1,26 +1,65 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>Document</title>
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Add Items</h1>
-  </header>
-  <section id="real">
-    <div id="app"></div>
-  </tr>
-</tbody>
-</table>
-  </section>
+  <h1>Formulaire</h1>
+
   <form>
-    <input type="text" placeholder="add item" id="content">
-    <button id="add">Add</button>
+
+    <div>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" placeholder="Nom">
+      <div id="error_nom"></div>
+      <div id="sucess_nom"></div>
+    </div>
+
+    <div>
+      <label for="prenom">Prenom :</label>
+      <input type="text" id="prenom" placeholder="Prenom">
+      <div id="error_prenom"></div>
+    </div>
+
+    <div>
+      <label for="email">email :</label>
+      <input type="email" id="email" placeholder="email">
+      <div id="error_email"></div>
+    </div>
+
+    <div>
+      <label for="date">date :</label>
+      <input type="date" id="date" placeholder="date">
+      <div id="error_date"></div>
+    </div>
+
+
+    <div>
+      <label for="adresse">adresse :</label>
+      <input type="text" id="adresse" placeholder="adresse">
+      <div id="error_adresse"></div>
+    </div>
+
+    <div>
+      <label for="postal">postal :</label>
+      <input type="text" id="postal" placeholder="postal">
+      <div id="error_postal"></div>
+    </div>
+
+    <div>
+      <label for="password">password :</label>
+      <input type="password" id="password" placeholder="password">
+      
+      <label for="confirm_password">confirm password :</label>
+      <input type="password" id="confirm_password" placeholder="confirm_password">
+
+      <div id="error_password"></div>
+    </div>
+  
+    <button id="button">Valider</button>
   </form>
- <script type="text/javascript" src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
