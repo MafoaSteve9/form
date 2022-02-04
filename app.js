@@ -94,3 +94,5 @@ button.addEventListener('click', (event) => {
   }
   
 });
+
+console.log('test');
